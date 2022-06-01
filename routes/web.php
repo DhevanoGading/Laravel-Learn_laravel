@@ -30,10 +30,6 @@ Route::get('/about', function () {
     ]);
 });
 
-
-
 Route::get('/posts', [PostController::class, 'index']);
-
-//single post page
 
 Route::get('posts/{slug}', [PostController::class, 'show']);
