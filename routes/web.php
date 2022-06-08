@@ -27,7 +27,7 @@ Route::get('/about', function () {
         "tittle" => "About",
         "name" => "Muhammad Dhevano Gading Az Zamzami",
         "email" => "dhevanogading@gmail.com",
-        "image" => "alluka zoldyck.jpg"
+        "image" => "img/alluka zoldyck.jpg"
     ]);
 });
 
